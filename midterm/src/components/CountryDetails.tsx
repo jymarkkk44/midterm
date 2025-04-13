@@ -49,11 +49,11 @@ export default function CountryDetails({
                 >
                   <div>
                     <ul>
-                      <li>{country.capital}</li>
-                      <li>{country.region}</li>
-                      <li>{country.population}</li>
-                      <li>{country.currency}</li>
-                      <li>{country.timezones}</li>
+                      <li><p>Capital: {country.capital} </p></li>
+                      <li><p>Region: {country.region} </p></li>
+                      <li><p>Population: {country.population} </p></li>
+                      <li><p>Currency: {country.currency} </p></li>
+                      <li><p> Timezone: {country.timezones} </p></li>
                     </ul>
                   </div>
                 </div>

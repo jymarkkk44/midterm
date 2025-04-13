@@ -16,7 +16,7 @@ export default function CountrySearch({ query, setQuery}: CountrySearchProps) {
 
   return (
     <>
-    <h1>Search For Any Country</h1>
+    <h1> Search For Any Country</h1>
       <div className="p-6">
         <input
           className="border-2 border-gray-700 focus:border-pink-600 rounded-full p-4"
